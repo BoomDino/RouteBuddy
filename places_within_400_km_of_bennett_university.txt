@@ -1,0 +1,1100 @@
+================================================================================
+1,000 PLACES WITHIN 400 KM OF BENNETT UNIVERSITY, GREATER NOIDA
+================================================================================
+Origin: Bennett University, TechZone 2, Greater Noida, Uttar Pradesh 201310
+Radius: Up to 400 km (NCR, Uttar Pradesh, Haryana, Rajasthan, Uttarakhand, Himachal Pradesh, Punjab, Chandigarh, Madhya Pradesh)
+
+--------------------------------------------------------------------------------
+1. AIRPORTS (1 - 16)
+--------------------------------------------------------------------------------
+1. Indira Gandhi International Airport (IGI) - Terminal 1, New Delhi
+2. Indira Gandhi International Airport (IGI) - Terminal 2, New Delhi
+3. Indira Gandhi International Airport (IGI) - Terminal 3, New Delhi
+4. Noida International Airport (Jewar Airport), Jewar, Uttar Pradesh
+5. Hindon Airport, Ghaziabad, Uttar Pradesh
+6. Agra Airport (Kheria Airport), Agra, Uttar Pradesh
+7. Jolly Grant Airport (Dehradun Airport), Dehradun, Uttarakhand
+8. Jaipur International Airport, Jaipur, Rajasthan
+9. Shaheed Bhagat Singh International Airport, Chandigarh
+10. Pantnagar Airport, Pantnagar, Uttarakhand
+11. Bareilly Airport, Bareilly, Uttar Pradesh
+12. Aligarh Airport, Aligarh, Uttar Pradesh
+13. Moradabad Airport, Moradabad, Uttar Pradesh
+14. Gwalior Airport (Rajmata Vijaya Raje Scindia Airport), Gwalior, Madhya Pradesh
+15. Hisar Airport (Maharaja Agrasen International Airport), Hisar, Haryana
+16. Safdarjung Airport, New Delhi
+
+--------------------------------------------------------------------------------
+2. METRO & RRTS (NAMO BHARAT) STATIONS (17 - 237)
+--------------------------------------------------------------------------------
+-- Noida Metro (Aqua Line) --
+17. Depot Metro Station, Greater Noida
+18. GNIDA Office Metro Station, Greater Noida
+19. Delta 1 Metro Station, Greater Noida
+20. Alpha 1 Metro Station, Greater Noida
+21. Pari Chowk Metro Station, Greater Noida
+22. Knowledge Park II Metro Station, Greater Noida
+23. Sector 148 Metro Station, Noida
+24. Sector 147 Metro Station, Noida
+25. Sector 146 Metro Station, Noida
+26. Sector 145 Metro Station, Noida
+27. Sector 144 Metro Station, Noida
+28. Sector 143 Metro Station, Noida
+29. Sector 142 Metro Station, Noida
+30. Sector 137 Metro Station, Noida
+31. Sector 83 Metro Station, Noida
+32. NSEZ Metro Station, Noida
+33. Sector 81 Metro Station, Noida
+34. Sector 101 Metro Station, Noida
+35. Sector 76 Metro Station, Noida
+36. Sector 50 Metro Station, Noida
+37. Sector 51 Metro Station, Noida
+
+-- Delhi Metro (Blue Line) --
+38. Noida Electronic City Metro Station, Noida
+39. Noida Sector 62 Metro Station, Noida
+40. Noida Sector 59 Metro Station, Noida
+41. Noida Sector 61 Metro Station, Noida
+42. Noida Sector 52 Metro Station, Noida
+43. Noida Sector 34 Metro Station, Noida
+44. Noida City Centre Metro Station, Noida
+45. Golf Course Metro Station, Noida
+46. Botanical Garden Metro Station, Noida
+47. Noida Sector 18 Metro Station, Noida
+48. Noida Sector 16 Metro Station, Noida
+49. Noida Sector 15 Metro Station, Noida
+50. New Ashok Nagar Metro Station, Delhi
+51. Mayur Vihar Extension Metro Station, Delhi
+52. Mayur Vihar-I Metro Station, Delhi
+53. Akshardham Metro Station, Delhi
+54. Yamuna Bank Metro Station, Delhi
+55. Indraprastha Metro Station, Delhi
+56. Supreme Court Metro Station, Delhi
+57. Mandi House Metro Station, Delhi
+58. Barakhamba Road Metro Station, Delhi
+59. Rajiv Chowk Metro Station, Delhi
+60. RK Ashram Marg Metro Station, Delhi
+61. Jhandewalan Metro Station, Delhi
+62. Karol Bagh Metro Station, Delhi
+63. Rajendra Place Metro Station, Delhi
+64. Patel Nagar Metro Station, Delhi
+65. Shadipur Metro Station, Delhi
+66. Kirti Nagar Metro Station, Delhi
+67. Moti Nagar Metro Station, Delhi
+68. Ramesh Nagar Metro Station, Delhi
+69. Rajouri Garden Metro Station, Delhi
+70. Tagore Garden Metro Station, Delhi
+71. Subhash Nagar Metro Station, Delhi
+72. Tilak Nagar Metro Station, Delhi
+73. Janakpuri East Metro Station, Delhi
+74. Janakpuri West Metro Station, Delhi
+75. Uttam Nagar East Metro Station, Delhi
+76. Uttam Nagar West Metro Station, Delhi
+77. Nawada Metro Station, Delhi
+78. Dwarka Mor Metro Station, Delhi
+79. Dwarka Metro Station, Delhi
+80. Dwarka Sector 14 Metro Station, Delhi
+81. Dwarka Sector 13 Metro Station, Delhi
+82. Dwarka Sector 12 Metro Station, Delhi
+83. Dwarka Sector 11 Metro Station, Delhi
+84. Dwarka Sector 10 Metro Station, Delhi
+85. Dwarka Sector 9 Metro Station, Delhi
+86. Dwarka Sector 8 Metro Station, Delhi
+87. Dwarka Sector 21 Metro Station, Delhi
+88. Laxmi Nagar Metro Station, Delhi
+89. Nirman Vihar Metro Station, Delhi
+90. Preet Vihar Metro Station, Delhi
+91. Karkarduma Metro Station, Delhi
+92. Anand Vihar ISBT Metro Station, Delhi
+93. Kaushambi Metro Station, Ghaziabad
+94. Vaishali Metro Station, Ghaziabad
+
+-- Delhi Metro (Magenta Line) --
+95. Okhla Bird Sanctuary Metro Station, Noida
+96. Kalindi Kunj Metro Station, Delhi
+97. Jasola Vihar Shaheen Bagh Metro Station, Delhi
+98. Okhla Vihar Metro Station, Delhi
+99. Jamia Millia Islamia Metro Station, Delhi
+100. Sukhdev Vihar Metro Station, Delhi
+101. Okhla NSIC Metro Station, Delhi
+102. Kalkaji Mandir Metro Station, Delhi
+103. Nehru Enclave Metro Station, Delhi
+104. Greater Kailash Metro Station, Delhi
+105. Chirag Delhi Metro Station, Delhi
+106. Panchsheel Park Metro Station, Delhi
+107. Hauz Khas Metro Station, Delhi
+108. IIT Delhi Metro Station, Delhi
+109. RK Puram Metro Station, Delhi
+110. Munirka Metro Station, Delhi
+111. Vasant Vihar Metro Station, Delhi
+112. Shankar Vihar Metro Station, Delhi
+113. Terminal 1-IGI Airport Metro Station, Delhi
+114. Sadar Bazar Cantonment Metro Station, Delhi
+115. Palam Metro Station, Delhi
+116. Dashrath Puri Metro Station, Delhi
+117. Dabri Mor - Janakpuri South Metro Station, Delhi
+
+-- Delhi Metro (Yellow Line) --
+118. Millennium City Centre Gurugram Metro Station, Gurugram
+119. IFFCO Chowk Metro Station, Gurugram
+120. MG Road Metro Station, Gurugram
+121. Sikanderpur Metro Station, Gurugram
+122. Guru Dronacharya Metro Station, Gurugram
+123. Arjan Garh Metro Station, Delhi
+124. Ghitorni Metro Station, Delhi
+125. Sultanpur Metro Station, Delhi
+126. Chhatarpur Metro Station, Delhi
+127. Qutab Minar Metro Station, Delhi
+128. Saket Metro Station, Delhi
+129. Malviya Nagar Metro Station, Delhi
+130. Green Park Metro Station, Delhi
+131. AIIMS Metro Station, Delhi
+132. Dilli Haat - INA Metro Station, Delhi
+133. Jor Bagh Metro Station, Delhi
+134. Lok Kalyan Marg Metro Station, Delhi
+135. Udyog Bhawan Metro Station, Delhi
+136. Central Secretariat Metro Station, Delhi
+137. Patel Chowk Metro Station, Delhi
+138. New Delhi Metro Station, Delhi
+139. Chawri Bazar Metro Station, Delhi
+140. Chandni Chowk Metro Station, Delhi
+141. Civil Lines Metro Station, Delhi
+142. Vidhan Sabha Metro Station, Delhi
+143. Vishwavidyalaya Metro Station, Delhi
+144. GTB Nagar Metro Station, Delhi
+145. Model Town Metro Station, Delhi
+146. Azadpur Metro Station, Delhi
+147. Adarsh Nagar Metro Station, Delhi
+148. Jahangirpuri Metro Station, Delhi
+149. Haiderpur Badli Mor Metro Station, Delhi
+150. Rohini Sector 18, 19 Metro Station, Delhi
+151. Samaypur Badli Metro Station, Delhi
+
+-- Delhi Metro (Violet Line) --
+152. Kashmere Gate Metro Station, Delhi
+153. Lal Quila Metro Station, Delhi
+154. Jama Masjid Metro Station, Delhi
+155. Delhi Gate Metro Station, Delhi
+156. ITO Metro Station, Delhi
+157. Janpath Metro Station, Delhi
+158. Khan Market Metro Station, Delhi
+159. JLN Stadium Metro Station, Delhi
+160. Jangpura Metro Station, Delhi
+161. Lajpat Nagar Metro Station, Delhi
+162. Moolchand Metro Station, Delhi
+163. Kailash Colony Metro Station, Delhi
+164. Nehru Place Metro Station, Delhi
+165. Govindpuri Metro Station, Delhi
+166. Harkesh Nagar Okhla Metro Station, Delhi
+167. Jasola Apollo Metro Station, Delhi
+168. Sarita Vihar Metro Station, Delhi
+169. Mohan Estate Metro Station, Delhi
+170. Tughlakabad Station Metro Station, Delhi
+171. Badarpur Border Metro Station, Delhi
+172. Sarai Metro Station, Faridabad
+173. NHPC Chowk Metro Station, Faridabad
+174. Mewala Maharajpur Metro Station, Faridabad
+175. Sector 28 Metro Station, Faridabad
+176. Badkal Mor Metro Station, Faridabad
+177. Old Faridabad Metro Station, Faridabad
+178. Neelam Chowk Ajronda Metro Station, Faridabad
+179. Bata Chowk Metro Station, Faridabad
+180. Escorts Mujesar Metro Station, Faridabad
+181. Sant Surdas (Sihi) Metro Station, Faridabad
+182. Raja Nahar Singh (Ballabhgarh) Metro Station, Faridabad
+
+-- Delhi Metro (Pink, Red, Airport Express & Rapid Metro Key Stations) --
+183. Sarojini Nagar Metro Station, Delhi
+184. Bhikaji Cama Place Metro Station, Delhi
+185. South Extension Metro Station, Delhi
+186. Ashram Metro Station, Delhi
+187. Sarai Kale Khan - Nizamuddin Metro Station, Delhi
+188. Mayur Vihar Pocket-1 Metro Station, Delhi
+189. Trilokpuri Sanjay Lake Metro Station, Delhi
+190. East Vinod Nagar - Mayur Vihar II Metro Station, Delhi
+191. Mandawali - West Vinod Nagar Metro Station, Delhi
+192. IP Extension Metro Station, Delhi
+193. Welcome Metro Station, Delhi
+194. Majlis Park Metro Station, Delhi
+195. Netaji Subhash Place Metro Station, Delhi
+196. Punjabi Bagh West Metro Station, Delhi
+197. Durgabai Deshmukh South Campus Metro Station, Delhi
+198. Sir M. Vishweshwaraiah Moti Bagh Metro Station, Delhi
+199. Shaheed Sthal (New Bus Adda) Metro Station, Ghaziabad
+200. Hindon River Metro Station, Ghaziabad
+201. Arthala Metro Station, Ghaziabad
+202. Mohan Nagar Metro Station, Ghaziabad
+203. Shyam Park Metro Station, Ghaziabad
+204. Major Mohit Sharma Rajendra Nagar Metro Station, Ghaziabad
+205. Raj Bagh Metro Station, Ghaziabad
+206. Shaheed Nagar Metro Station, Ghaziabad
+207. Dilshad Garden Metro Station, Delhi
+208. Shahdara Metro Station, Delhi
+209. Tis Hazari Metro Station, Delhi
+210. Inderlok Metro Station, Delhi
+211. Pitampura Metro Station, Delhi
+212. Rohini East Metro Station, Delhi
+213. Rohini West Metro Station, Delhi
+214. Rithala Metro Station, Delhi
+215. Shivaji Stadium Metro Station (Airport Express), Delhi
+216. Dhaula Kuan Metro Station (Airport Express), Delhi
+217. Delhi Aerocity Metro Station (Airport Express), Delhi
+218. IGI Airport Metro Station (Airport Express), Delhi
+219. Yashobhoomi Dwarka Sector 25 Metro Station, Delhi
+220. Cyber City Rapid Metro Station, Gurugram
+221. DLF Phase 2 Rapid Metro Station, Gurugram
+222. DLF Phase 3 Rapid Metro Station, Gurugram
+223. Moulsari Avenue Rapid Metro Station, Gurugram
+224. Sector 55-56 Rapid Metro Station, Gurugram
+225. Sector 54 Chowk Rapid Metro Station, Gurugram
+226. Sector 42-43 Rapid Metro Station, Gurugram
+
+-- Delhi-Meerut RRTS (Namo Bharat) Stations --
+227. Sarai Kale Khan RRTS Station, Delhi
+228. New Ashok Nagar RRTS Station, Delhi
+229. Anand Vihar RRTS Station, Delhi
+230. Sahibabad RRTS Station, Ghaziabad
+231. Ghaziabad RRTS Station, Ghaziabad
+232. Guldhar RRTS Station, Ghaziabad
+233. Duhai RRTS Station, Ghaziabad
+234. Muradnagar RRTS Station, Ghaziabad
+235. Modi Nagar South RRTS Station, Ghaziabad
+236. Modi Nagar North RRTS Station, Ghaziabad
+237. Meerut South RRTS Station, Meerut
+
+--------------------------------------------------------------------------------
+3. RAILWAY STATIONS (NCR & WITHIN 400 KM) (238 - 334)
+--------------------------------------------------------------------------------
+-- NCR Railway Stations --
+238. Boraki Halt Railway Station, Greater Noida
+239. Ajaibpur Railway Station, Greater Noida
+240. Dadri Railway Station, Greater Noida
+241. Dankaur Railway Station, Greater Noida
+242. Maripat Railway Station, Greater Noida
+243. Ghaziabad Junction Railway Station, Ghaziabad
+244. Sahibabad Junction Railway Station, Ghaziabad
+245. Anand Vihar Terminal Railway Station (ANVT), Delhi
+246. Hazrat Nizamuddin Railway Station (NZM), Delhi
+247. New Delhi Railway Station (NDLS), Delhi
+248. Old Delhi Railway Station (Delhi Junction - DLI), Delhi
+249. Delhi Sarai Rohilla Railway Station (DEE), Delhi
+250. Delhi Cantt Railway Station (DEC), Delhi
+251. Delhi Safdarjung Railway Station, Delhi
+252. Delhi Shahdara Junction Railway Station, Delhi
+253. Tilak Bridge Railway Station, Delhi
+254. Shivaji Bridge Railway Station, Delhi
+255. Okhla Railway Station, Delhi
+256. Tughlakabad Railway Station, Delhi
+257. Subzi Mandi Railway Station, Delhi
+258. Adarsh Nagar Delhi Railway Station, Delhi
+259. Faridabad Railway Station, Faridabad
+260. Faridabad New Town Railway Station, Faridabad
+261. Ballabhgarh Railway Station, Faridabad
+262. Gurgaon Railway Station, Gurugram
+263. Garhi Harsaru Junction Railway Station, Gurugram
+264. Pataudi Road Railway Station, Gurugram
+265. Palwal Railway Station, Palwal
+266. Sonipat Junction Railway Station, Sonipat
+267. Bahadurgarh Railway Station, Bahadurgarh
+
+-- Regional Railway Stations (Within 400 km) --
+268. Aligarh Junction Railway Station, Aligarh
+269. Khurja Junction Railway Station, Khurja
+270. Bulandshahr Railway Station, Bulandshahr
+271. Hapur Junction Railway Station, Hapur
+272. Meerut City Junction Railway Station, Meerut
+273. Meerut Cantt Railway Station, Meerut
+274. Muzaffarnagar Railway Station, Muzaffarnagar
+275. Saharanpur Junction Railway Station, Saharanpur
+276. Roorkee Railway Station, Roorkee
+277. Haridwar Junction Railway Station, Haridwar
+278. Yog Nagari Rishikesh Railway Station, Rishikesh
+279. Rishikesh Railway Station, Rishikesh
+280. Dehradun Railway Station, Dehradun
+281. Mathura Junction Railway Station, Mathura
+282. Mathura Cantt Railway Station, Mathura
+283. Agra Cantt Railway Station, Agra
+284. Agra Fort Railway Station, Agra
+285. Raja Ki Mandi Railway Station, Agra
+286. Idgah Agra Junction Railway Station, Agra
+287. Tundla Junction Railway Station, Tundla
+288. Firozabad Railway Station, Firozabad
+289. Shikohabad Junction Railway Station, Shikohabad
+290. Etawah Junction Railway Station, Etawah
+291. Hathras Junction Railway Station, Hathras
+292. Kasganj Junction Railway Station, Kasganj
+293. Moradabad Junction Railway Station, Moradabad
+294. Amroha Railway Station, Amroha
+295. Gajraula Junction Railway Station, Gajraula
+296. Rampur Junction Railway Station, Rampur
+297. Bareilly Junction Railway Station, Bareilly
+298. Shahjahanpur Railway Station, Shahjahanpur
+299. Pilibhit Junction Railway Station, Pilibhit
+300. Rudrapur City Railway Station, Rudrapur
+301. Haldwani Railway Station, Haldwani
+302. Kathgodam Railway Station, Kathgodam
+303. Ramnagar Railway Station, Ramnagar
+304. Kashipur Junction Railway Station, Kashipur
+305. Kotdwar Railway Station, Kotdwar
+306. Najibabad Junction Railway Station, Najibabad
+307. Panipat Junction Railway Station, Panipat
+308. Karnal Railway Station, Karnal
+309. Kurukshetra Junction Railway Station, Kurukshetra
+310. Ambala Cantt Junction Railway Station, Ambala
+311. Chandigarh Junction Railway Station, Chandigarh
+312. Kalka Railway Station, Kalka
+313. Shimla Railway Station, Shimla
+314. Patiala Railway Station, Patiala
+315. Rohtak Junction Railway Station, Rohtak
+316. Rewari Junction Railway Station, Rewari
+317. Bhiwani Junction Railway Station, Bhiwani
+318. Hisar Junction Railway Station, Hisar
+319. Jind Junction Railway Station, Jind
+320. Alwar Junction Railway Station, Alwar
+321. Bharatpur Junction Railway Station, Bharatpur
+322. Bandikui Junction Railway Station, Bandikui
+323. Dausa Railway Station, Dausa
+324. Jaipur Junction Railway Station, Jaipur
+325. Gandhinagar Jaipur Railway Station, Jaipur
+326. Durgapura Railway Station, Jaipur
+327. Sawai Madhopur Junction Railway Station, Sawai Madhopur
+328. Sikar Junction Railway Station, Sikar
+329. Jhunjhunu Railway Station, Jhunjhunu
+330. Dholpur Junction Railway Station, Dholpur
+331. Morena Railway Station, Morena
+332. Gwalior Junction Railway Station, Gwalior
+333. Farrukhabad Junction Railway Station, Farrukhabad
+334. Kannauj Railway Station, Kannauj
+
+--------------------------------------------------------------------------------
+4. BUS STATIONS & ISBTS (335 - 394)
+--------------------------------------------------------------------------------
+335. Pari Chowk Bus Stand, Greater Noida
+336. Greater Noida Depot Bus Stand, Greater Noida
+337. Zero Point Yamuna Expressway Bus Stop, Greater Noida
+338. Noida Sector 35 Bus Stand (Morna Bus Depot), Noida
+339. Botanical Garden Bus Stand, Noida
+340. Mahamaya Flyover Bus Stop, Noida
+341. Sector 62 Bus Stand, Noida
+342. Kashmere Gate ISBT (Maharana Pratap ISBT), Delhi
+343. Anand Vihar ISBT (Swami Vivekanand ISBT), Delhi
+344. Sarai Kale Khan ISBT (Veer Hakikat Rai ISBT), Delhi
+345. Majnu Ka Tila Bus Stand, Delhi
+346. Dhaula Kuan Bus Stand, Delhi
+347. RK Ashram Marg Bus Stand, Delhi
+348. Kaushambi Bus Depot (UPSRTC), Ghaziabad
+349. Ghaziabad Old Bus Stand, Ghaziabad
+350. Mohan Nagar Bus Stand, Ghaziabad
+351. Lal Kuan Bus Stand, Ghaziabad
+352. Gurugram Bus Stand (Sector 12), Gurugram
+353. IFFCO Chowk Bus Stop, Gurugram
+354. Rajiv Chowk Bus Stop, Gurugram
+355. NIT Faridabad Bus Stand, Faridabad
+356. Ballabhgarh Bus Stand, Faridabad
+357. Dadri Bus Stand, Greater Noida
+358. Jewar Bus Stand, Jewar
+359. Bulandshahr Bus Stand, Bulandshahr
+360. Hapur Bus Stand, Hapur
+361. Aligarh Bus Stand (Gandhi Park / Masoodabad), Aligarh
+362. Mathura New Bus Stand, Mathura
+363. Agra ISBT (Transport Nagar), Agra
+364. Agra Idgah Bus Stand, Agra
+365. Agra Bijli Ghar Bus Stand, Agra
+366. Meerut Sohrab Gate Bus Stand, Meerut
+367. Meerut Bhainsali Bus Stand, Meerut
+368. Muzaffarnagar Bus Stand, Muzaffarnagar
+369. Saharanpur Bus Stand, Saharanpur
+370. Roorkee Bus Stand, Roorkee
+371. Haridwar Bus Stand (Opposite Railway Station), Haridwar
+372. Rishikesh ISBT (Sanyukt Yatra Bus Stand), Rishikesh
+373. Dehradun ISBT (Clement Town), Dehradun
+374. Mussoorie Library Bus Stand, Mussoorie
+375. Mussoorie Picture Palace Bus Stand, Mussoorie
+376. Haldwani ISBT, Haldwani
+377. Nainital Tallital Bus Stand, Nainital
+378. Ramnagar Bus Stand, Ramnagar
+379. Moradabad Bus Stand, Moradabad
+380. Bareilly Satellite Bus Stand, Bareilly
+381. Jaipur Sindhi Camp Bus Stand, Jaipur
+382. Jaipur Narayan Singh Circle Bus Stop, Jaipur
+383. Alwar Bus Stand, Alwar
+384. Bharatpur Bus Stand, Bharatpur
+385. Chandigarh ISBT Sector 17, Chandigarh
+386. Chandigarh ISBT Sector 43, Chandigarh
+387. Shimla ISBT Tutikandi, Shimla
+388. Ambala Cantt Bus Stand, Ambala
+389. Karnal Bus Stand, Karnal
+390. Panipat Bus Stand, Panipat
+391. Kurukshetra Bus Stand, Kurukshetra
+392. Rohtak Bus Stand, Rohtak
+393. Hisar Bus Stand, Hisar
+394. Gwalior Bus Stand, Gwalior
+
+--------------------------------------------------------------------------------
+5. GREATER NOIDA: HANGOUTS, MALLS, MARKETS, COLLEGES & LANDMARKS (395 - 460)
+--------------------------------------------------------------------------------
+395. Pari Chowk, Greater Noida
+396. The Grand Venice Mall, Greater Noida
+397. Omaxe Connaught Place Mall (OCP), Greater Noida
+398. Ansal Plaza Mall, Greater Noida
+399. MSX Mall, Greater Noida
+400. Gaur City Mall, Greater Noida West
+401. Galaxy Blue Sapphire Plaza, Greater Noida West
+402. Galaxy Diamond Plaza, Greater Noida West
+403. Jagat Farm Market, Gamma 1, Greater Noida
+404. Alpha 1 Commercial Belt, Greater Noida
+405. Alpha 2 Market, Greater Noida
+406. Beta 1 Market, Greater Noida
+407. Beta 2 Market, Greater Noida
+408. Gamma 1 Market, Greater Noida
+409. Gamma 2 Market, Greater Noida
+410. Delta 1 Market, Greater Noida
+411. Delta 2 Market, Greater Noida
+412. Delta 3 Market, Greater Noida
+413. Swarn Nagri, Greater Noida
+414. Sector Omega 1, Greater Noida
+415. Sector Omega 2, Greater Noida
+416. Sector Chi-Phi, Greater Noida
+417. Sector Pi 1 & Pi 2, Greater Noida
+418. Sector Omicron 1, 2 & 3, Greater Noida
+419. Sector Mu 1 & Mu 2, Greater Noida
+420. Sector Xu 1, 2 & 3, Greater Noida
+421. Sector Zeta 1 & Zeta 2, Greater Noida
+422. Sector Eta 1 & Eta 2, Greater Noida
+423. Knowledge Park 1, Greater Noida
+424. Knowledge Park 2, Greater Noida
+425. Knowledge Park 3, Greater Noida
+426. Knowledge Park 4, Greater Noida
+427. Knowledge Park 5, Greater Noida West
+428. TechZone 2, Greater Noida
+429. TechZone 4, Greater Noida West
+430. India Expo Centre & Mart, Greater Noida
+431. Buddh International Circuit (F1 Track), Greater Noida
+432. Surajpur Bird Sanctuary & Wetland, Greater Noida
+433. City Park (Samrat Mihir Bhoj Park), Greater Noida
+434. Jaypee Greens Golf & Spa Resort, Greater Noida
+435. Crowne Plaza Greater Noida, Surajpur
+436. Radisson Blu Hotel Greater Noida, Kasna
+437. ExpoInn Suites and Convention, Greater Noida
+438. Shaheed Vijay Singh Pathik Sports Complex, Greater Noida
+439. Stellar IT Park, Greater Noida
+440. Sharda University, Greater Noida
+441. Galgotias University, Yamuna Expressway, Greater Noida
+442. Galgotias College of Engineering and Technology, Greater Noida
+443. Gautam Buddha University (GBU), Greater Noida
+444. Shiv Nadar University, Dadri, Greater Noida
+445. GL Bajaj Institute of Technology and Management, Greater Noida
+446. Noida Institute of Engineering and Technology (NIET), Greater Noida
+447. IILM University, Greater Noida
+448. Greater Noida Institute of Technology (GNIOT), Greater Noida
+449. Lloyd Law College, Greater Noida
+450. Birla Institute of Management Technology (BIMTECH), Greater Noida
+451. IIMT Group of Colleges, Greater Noida
+452. Symbiosis Centre for Management Studies, Noida
+453. Kasna Industrial Area, Greater Noida
+454. Surajpur Site 4, Greater Noida
+455. Ecotech 1, 2 & 3, Greater Noida
+456. Pari Chowk Sports Complex, Greater Noida
+457. Gaur Chowk (Char Murti), Greater Noida West
+458. Ek Murti Chowk, Greater Noida West
+459. Bisrakh, Greater Noida West
+460. Tilapta Chowk, Greater Noida
+
+--------------------------------------------------------------------------------
+6. NOIDA: MALLS, MARKETS, HANGOUTS, TECH HUBS & LANDMARKS (461 - 510)
+--------------------------------------------------------------------------------
+461. DLF Mall of India, Sector 18, Noida
+462. The Great India Place (GIP) Mall, Sector 38A, Noida
+463. Gardens Galleria Mall, Sector 38A, Noida
+464. Worlds of Wonder (WOW) Water Park, Sector 38A, Noida
+465. KidZania, Sector 38A, Noida
+466. Atta Market, Sector 27 / Sector 18, Noida
+467. Sector 18 Market, Noida
+468. Brahmaputra Market, Sector 29, Noida
+469. Ganga Shopping Complex, Sector 29, Noida
+470. Logix City Centre Mall, Sector 32, Noida
+471. Wave Mall, Sector 18, Noida
+472. Spectrum Metro Mall, Sector 75, Noida
+473. Modi Mall (Spice World Mall), Sector 25A, Noida
+474. Gulshan One29 Mall, Sector 129, Noida
+475. Skymark One, Sector 98, Noida
+476. Advant Navis Business Park, Sector 142, Noida
+477. Candor TechSpace, Sector 135, Noida
+478. Candor TechSpace, Sector 62, Noida
+479. Oxygen Business Park, Sector 144, Noida
+480. Bhutani Alphathum, Sector 90, Noida
+481. Bhutani Cyberthum, Sector 140A, Noida
+482. Sector 104 Market (Hazipur Cafe Hub), Noida
+483. Sector 137 Market, Noida
+484. Sector 76 Market, Noida
+485. Sector 50 Central Market, Noida
+486. Sector 37 Market, Noida
+487. Sector 15 Market (Naya Bans), Noida
+488. Sector 16 Film City, Noida
+489. Sector 62 Institutional Area, Noida
+490. Sector 63 IT Hub, Noida
+491. Sector 125 (Amity University Noida), Noida
+492. Sector 126 (HCL Campus), Noida
+493. Okhla Bird Sanctuary, Sector 95, Noida
+494. Rashtriya Dalit Prerna Sthal, Sector 95, Noida
+495. Botanical Garden, Sector 38, Noida
+496. Noida Haat, Sector 33A, Noida
+497. ISKCON Temple Noida, Sector 33, Noida
+498. Noida Stadium, Sector 21A, Noida
+499. Noida Golf Course, Sector 38, Noida
+500. Decathlon Noida (Mall of India / GIP), Noida
+501. Lykli / Sector 51 Commercial Hub, Noida
+502. Jaypee Institute of Information Technology (JIIT), Sector 62, Noida
+503. Jaypee Institute of Information Technology (JIIT), Sector 128, Noida
+504. Indira Market, Sector 27, Noida
+505. Savitri Market, Sector 18, Noida
+506. Sab Mall, Sector 27, Noida
+507. Teesta Market, Sector 37, Noida
+508. Glued Reloaded Gaming Zone, Sector 41, Noida
+509. Smaaash Noida, DLF Mall of India, Noida
+510. Snow World Noida, DLF Mall of India, Noida
+
+--------------------------------------------------------------------------------
+7. DELHI: HANGOUTS, MARKETS, MALLS, MONUMENTS & HUBS (511 - 640)
+--------------------------------------------------------------------------------
+-- Markets & Shopping Hubs --
+511. Connaught Place (CP), New Delhi
+512. Palika Bazaar, Connaught Place, New Delhi
+513. Janpath Market, New Delhi
+514. Tibetan Market (Janpath), New Delhi
+515. Sarojini Nagar Market, New Delhi
+516. Lajpat Nagar Central Market, New Delhi
+517. Khan Market, New Delhi
+518. Chandni Chowk, Old Delhi
+519. Paranthe Wali Gali, Chandni Chowk, Old Delhi
+520. Khari Baoli Spice Market, Old Delhi
+521. Chawri Bazar, Old Delhi
+522. Daryaganj Sunday Book Market (Mahila Haat), Old Delhi
+523. Karol Bagh Market, New Delhi
+524. Gaffar Market, Karol Bagh, New Delhi
+525. Nehru Place IT Market, New Delhi
+526. Greater Kailash 1 (GK-1) M Block Market, New Delhi
+527. Greater Kailash 2 (GK-2) M Block Market, New Delhi
+528. South Extension (South Ex) Part 1 & 2, New Delhi
+529. Kamla Nagar Market, North Delhi
+530. Rajouri Garden Main Market, West Delhi
+531. Tilak Nagar Market, West Delhi
+532. Paharganj Main Bazaar, New Delhi
+533. INA Market, New Delhi
+534. Dilli Haat INA, New Delhi
+535. Dilli Haat Janakpuri, New Delhi
+536. Dilli Haat Pitampura, New Delhi
+537. Yashwant Place Market, Chanakyapuri, New Delhi
+538. Shankar Market, Connaught Place, New Delhi
+539. Bengali Market, New Delhi
+540. CR Park (Chittaranjan Park) Market, New Delhi
+541. Amar Colony Market, New Delhi
+542. Sadar Bazar, Old Delhi
+543. Shahpur Jat Village, New Delhi
+544. Meharchand Market, Lodhi Colony, New Delhi
+545. Defence Colony Market, New Delhi
+546. Malviya Nagar Market, New Delhi
+547. Munirka Market, New Delhi
+548. Laxmi Nagar Market, East Delhi
+549. Vikas Marg, East Delhi
+
+-- Student Hangouts & Cafe Hubs --
+550. Hauz Khas Village (HKV), New Delhi
+551. Majnu Ka Tila (Little Tibet), North Delhi
+552. Hudson Lane (GTB Nagar), North Delhi
+553. Satya Niketan, South Campus, New Delhi
+554. Champa Gali, Saket, New Delhi
+555. Dhan Mill Compound, Chhatarpur, New Delhi
+556. Humayunpur (Safdarjung Enclave), New Delhi
+557. Delhi University North Campus, North Delhi
+558. Delhi University South Campus, New Delhi
+559. IIT Delhi Campus, Hauz Khas, New Delhi
+560. JNU Campus (Jawaharlal Nehru University), New Delhi
+561. DTU (Delhi Technological University), Rohini, Delhi
+562. NSUT (Netaji Subhas University of Technology), Dwarka, Delhi
+563. IIIT Delhi, Okhla, New Delhi
+564. Jamia Millia Islamia, New Delhi
+565. Aerocity (Worldmark 1, 2 & 3), New Delhi
+566. Punjabi Bagh Club Road, West Delhi
+567. Netaji Subhash Place (NSP) Food Hub, North West Delhi
+568. Karkardooma Community Centre, East Delhi
+569. New Friends Colony (NFC) Community Centre, New Delhi
+
+-- Malls in Delhi --
+570. Select CITYWALK Mall, Saket, New Delhi
+571. DLF Avenue Mall, Saket, New Delhi
+572. MGF Metropolitan Mall, Saket, New Delhi
+573. DLF Promenade Mall, Vasant Kunj, New Delhi
+574. DLF Emporio Mall, Vasant Kunj, New Delhi
+575. Ambience Mall Vasant Kunj, New Delhi
+576. Pacific Mall Tagore Garden, West Delhi
+577. Pacific Mall Jasola, New Delhi
+578. Vegas Mall, Dwarka, New Delhi
+579. Pacific D21 Mall, Dwarka, New Delhi
+580. Unity One Mall, Rohini, New Delhi
+581. Unity One Mall, Janakpuri, New Delhi
+582. V3S Mall, Laxmi Nagar, East Delhi
+583. Cross River Mall, Shahdara, East Delhi
+584. Metro Walk Mall & Adventure Island, Rohini, New Delhi
+585. The Chanakya Mall, Chanakyapuri, New Delhi
+586. Epicuria Food Mall, Nehru Place, New Delhi
+
+-- Monuments, Parks, Museums & Cultural Spots --
+587. India Gate, New Delhi
+588. Kartavya Path, New Delhi
+589. National War Memorial, New Delhi
+590. Rashtrapati Bhavan & Amrit Udyan, New Delhi
+591. Parliament House (Sansad Bhavan), New Delhi
+592. Red Fort (Lal Quila), Old Delhi
+593. Jama Masjid, Old Delhi
+594. Qutub Minar, Mehrauli, New Delhi
+595. Mehrauli Archaeological Park, New Delhi
+596. Humayun's Tomb, Nizamuddin, New Delhi
+597. Sunder Nursery, Nizamuddin, New Delhi
+598. Lotus Temple (Bahai House of Worship), Kalkaji, New Delhi
+599. Swaminarayan Akshardham Temple, East Delhi
+600. Gurudwara Bangla Sahib, Connaught Place, New Delhi
+601. Gurudwara Sis Ganj Sahib, Chandni Chowk, Old Delhi
+602. Hazrat Nizamuddin Dargah, New Delhi
+603. ISKCON Temple East of Kailash, New Delhi
+604. Birla Mandir (Laxminarayan Temple), New Delhi
+605. Chhatarpur Temple, New Delhi
+606. Kalkaji Mandir, New Delhi
+607. Jhandewalan Mandir, New Delhi
+608. Sacred Heart Cathedral, New Delhi
+609. Lodhi Garden, New Delhi
+610. Lodhi Art District, New Delhi
+611. Safdarjung Tomb, New Delhi
+612. Purana Qila (Old Fort), New Delhi
+613. National Zoological Park (Delhi Zoo), New Delhi
+614. Jantar Mantar, New Delhi
+615. Agrasen Ki Baoli, Connaught Place, New Delhi
+616. Tughlaqabad Fort, New Delhi
+617. Hauz Khas Fort & Deer Park, New Delhi
+618. Garden of Five Senses, Saidulajab, New Delhi
+619. Sanjay Van, Mehrauli, New Delhi
+620. Millennium Park, Sarai Kale Khan, New Delhi
+621. Waste to Wonder Park, Sarai Kale Khan, New Delhi
+622. Bharat Darshan Park, Punjabi Bagh, New Delhi
+623. Raj Ghat, New Delhi
+624. National Museum, Janpath, New Delhi
+625. National Rail Museum, Chanakyapuri, New Delhi
+626. National Science Centre, Pragati Maidan, New Delhi
+627. National Gallery of Modern Art (NGMA), New Delhi
+628. Pradhanmantri Sangrahalaya (Teen Murti Bhavan), New Delhi
+629. Gandhi Smriti, New Delhi
+630. India Habitat Centre (IHC), Lodhi Road, New Delhi
+631. India International Centre (IIC), Lodhi Road, New Delhi
+632. Mandi House Theatre Hub (NSD / Sri Ram Centre / Kamani Auditorium), New Delhi
+633. Bharat Mandapam (Pragati Maidan), New Delhi
+634. Yashobhoomi Convention Centre, Dwarka, New Delhi
+635. Arun Jaitley Stadium (Feroz Shah Kotla), New Delhi
+636. Jawaharlal Nehru Stadium, New Delhi
+637. Indira Gandhi Indoor Stadium, New Delhi
+638. Siri Fort Auditorium & Sports Complex, New Delhi
+639. Talkatora Stadium, New Delhi
+640. Museum of Illusions, Connaught Place, New Delhi
+
+--------------------------------------------------------------------------------
+8. GURUGRAM, FARIDABAD & GHAZIABAD HOTSPOTS (641 - 698)
+--------------------------------------------------------------------------------
+-- Gurugram --
+641. DLF CyberHub, Gurugram
+642. DLF Cyber City, Gurugram
+643. Ambience Mall Gurugram, NH-48, Gurugram
+644. Galleria Market, DLF Phase 4, Gurugram
+645. Sector 29 Leisure Valley Market, Gurugram
+646. 32nd Avenue, Sector 15, Gurugram
+647. Worldmark Gurugram, Sector 65, Gurugram
+648. Airia Mall, Sohna Road, Gurugram
+649. MGF Metropolitan Mall, MG Road, Gurugram
+650. Sahara Mall, MG Road, Gurugram
+651. South Point Mall, Golf Course Road, Gurugram
+652. One Horizon Center, Golf Course Road, Gurugram
+653. Good Earth City Centre, Sector 50, Gurugram
+654. Ardee Mall, Sector 52, Gurugram
+655. M3M IFC (International Financial Centre), Sector 66, Gurugram
+656. Oysters Beach Water Park (Appu Ghar), Sector 29, Gurugram
+657. Leisure Valley Park, Sector 29, Gurugram
+658. Aravalli Biodiversity Park, Gurugram
+659. Leopard Trail, Gurugram
+660. Damdama Lake, Sohna, Gurugram
+661. Sultanpur National Park, Gurugram
+662. Heritage Transport Museum, Tauru, Gurugram
+663. Museo Camera, DLF Phase 4, Gurugram
+664. Tau Devi Lal Bio Diversity Park, Gurugram
+665. Udyog Vihar, Gurugram
+666. Manesar IMT, Gurugram
+667. Sohna Hot Springs, Sohna, Gurugram
+668. Sheetla Mata Mandir, Gurugram
+669. Sadar Bazar, Gurugram
+
+-- Faridabad --
+670. Surajkund Lake & Mela Ground, Faridabad
+671. World Street by Omaxe, Sector 79, Faridabad
+672. Mall of Faridabad, NIT Faridabad
+673. Crown Interiorz Mall, Sector 35, Faridabad
+674. Pebble Downtown Mall, Sector 12, Faridabad
+675. EF3 Mall, Sector 20A, Faridabad
+676. Sector 15 Market, Faridabad
+677. Sector 16 Market, Faridabad
+678. NIT 1 Market, Faridabad
+679. Badkhal Lake Area, Faridabad
+680. Death Valley (Bhardwaj Lake / Asola Bhatti Border), Faridabad
+681. Town Park, Sector 12, Faridabad
+682. Nahar Singh Palace, Ballabhgarh, Faridabad
+683. Raja Nahar Singh Cricket Stadium, Faridabad
+
+-- Ghaziabad --
+684. Indirapuram Habitat Centre, Indirapuram, Ghaziabad
+685. Shipra Mall, Indirapuram, Ghaziabad
+686. Pacific Mall Kaushambi, Ghaziabad
+687. East Delhi Mall (EDM), Kaushambi, Ghaziabad
+688. Mahagun Metro Mall, Vaishali, Ghaziabad
+689. Gaur Central Mall, Raj Nagar, Ghaziabad
+690. Opulent Mall, GT Road, Ghaziabad
+691. World Square Mall, Mohan Nagar, Ghaziabad
+692. Raj Nagar District Centre (RDC), Ghaziabad
+693. Swarna Jayanti Park, Indirapuram, Ghaziabad
+694. City Forest, Raj Nagar Extension, Ghaziabad
+695. Drizzling Land Water & Amusement Park, Duhai, Ghaziabad
+696. ISKCON Temple Ghaziabad, Raj Nagar, Ghaziabad
+697. Dudheshwar Nath Mandir, Ghaziabad
+698. Turab Nagar Market, Ghaziabad
+
+--------------------------------------------------------------------------------
+9. MAJOR HOSPITALS & EMERGENCY CENTERS (NCR) (699 - 724)
+--------------------------------------------------------------------------------
+699. Yatharth Super Speciality Hospital, Omega 1, Greater Noida
+700. Sharda Hospital, Knowledge Park 3, Greater Noida
+701. Kailash Hospital, Knowledge Park 1, Greater Noida
+702. Fortis Hospital Greater Noida, Surajpur
+703. GIMS (Government Institute of Medical Sciences), Kasna, Greater Noida
+704. Sarvodaya Hospital, Greater Noida West
+705. Jaypee Hospital, Sector 128, Noida
+706. Fortis Hospital Noida, Sector 62, Noida
+707. Max Multi Speciality Centre, Sector 19, Noida
+708. Kailash Hospital Noida, Sector 27, Noida
+709. Metro Hospital, Sector 11, Noida
+710. Felix Hospital, Sector 137, Noida
+711. AIIMS (All India Institute of Medical Sciences), New Delhi
+712. Safdarjung Hospital, New Delhi
+713. Indraprastha Apollo Hospital, Sarita Vihar, New Delhi
+714. Max Super Speciality Hospital, Saket, New Delhi
+715. Fortis Escorts Heart Institute, Okhla, New Delhi
+716. Sir Ganga Ram Hospital, Rajinder Nagar, New Delhi
+717. BLK-Max Super Speciality Hospital, Pusa Road, New Delhi
+718. Ram Manohar Lohia (RML) Hospital, New Delhi
+719. Medanta - The Medicity, Gurugram
+720. Artemis Hospital, Gurugram
+721. Fortis Memorial Research Institute (FMRI), Gurugram
+722. Amrita Hospital, Faridabad
+723. Asian Institute of Medical Sciences, Faridabad
+724. Yashoda Super Speciality Hospital, Kaushambi, Ghaziabad
+
+--------------------------------------------------------------------------------
+10. COMMON CITIES & TOWNS WITHIN 400 KM (725 - 860)
+--------------------------------------------------------------------------------
+-- Delhi NCR & Uttar Pradesh --
+725. New Delhi, Delhi
+726. Noida, Uttar Pradesh
+727. Greater Noida, Uttar Pradesh
+728. Ghaziabad, Uttar Pradesh
+729. Dadri, Uttar Pradesh
+730. Dankaur, Uttar Pradesh
+731. Jewar, Uttar Pradesh
+732. Sikandrabad, Uttar Pradesh
+733. Bulandshahr, Uttar Pradesh
+734. Khurja, Uttar Pradesh
+735. Hapur, Uttar Pradesh
+736. Modinagar, Uttar Pradesh
+737. Muradnagar, Uttar Pradesh
+738. Pilkhuwa, Uttar Pradesh
+739. Garhmukteshwar, Uttar Pradesh
+740. Meerut, Uttar Pradesh
+741. Baghpat, Uttar Pradesh
+742. Baraut, Uttar Pradesh
+743. Shamli, Uttar Pradesh
+744. Muzaffarnagar, Uttar Pradesh
+745. Saharanpur, Uttar Pradesh
+746. Deoband, Uttar Pradesh
+747. Aligarh, Uttar Pradesh
+748. Hathras, Uttar Pradesh
+749. Mathura, Uttar Pradesh
+750. Vrindavan, Uttar Pradesh
+751. Govardhan, Uttar Pradesh
+752. Barsana, Uttar Pradesh
+753. Agra, Uttar Pradesh
+754. Fatehpur Sikri, Uttar Pradesh
+755. Tundla, Uttar Pradesh
+756. Firozabad, Uttar Pradesh
+757. Shikohabad, Uttar Pradesh
+758. Etah, Uttar Pradesh
+759. Kasganj, Uttar Pradesh
+760. Mainpuri, Uttar Pradesh
+761. Etawah, Uttar Pradesh
+762. Auraiya, Uttar Pradesh
+763. Farrukhabad, Uttar Pradesh
+764. Kannauj, Uttar Pradesh
+765. Moradabad, Uttar Pradesh
+766. Amroha, Uttar Pradesh
+767. Gajraula, Uttar Pradesh
+768. Sambhal, Uttar Pradesh
+769. Chandausi, Uttar Pradesh
+770. Rampur, Uttar Pradesh
+771. Bijnor, Uttar Pradesh
+772. Najibabad, Uttar Pradesh
+773. Bareilly, Uttar Pradesh
+774. Budaun, Uttar Pradesh
+775. Pilibhit, Uttar Pradesh
+776. Shahjahanpur, Uttar Pradesh
+
+-- Haryana --
+777. Gurugram, Haryana
+778. Faridabad, Haryana
+779. Ballabhgarh, Haryana
+780. Palwal, Haryana
+781. Hodal, Haryana
+782. Sohna, Haryana
+783. Manesar, Haryana
+784. Nuh (Mewat), Haryana
+785. Bahadurgarh, Haryana
+786. Jhajjar, Haryana
+787. Sonipat, Haryana
+788. Murthal, Haryana
+789. Ganaur, Haryana
+790. Panipat, Haryana
+791. Karnal, Haryana
+792. Kurukshetra, Haryana
+793. Thanesar, Haryana
+794. Ambala, Haryana
+795. Panchkula, Haryana
+796. Kalka, Haryana
+797. Pinjore, Haryana
+798. Yamunanagar, Haryana
+799. Jagadhri, Haryana
+800. Kaithal, Haryana
+801. Rohtak, Haryana
+802. Jind, Haryana
+803. Bhiwani, Haryana
+804. Charkhi Dadri, Haryana
+805. Rewari, Haryana
+806. Dharuhera, Haryana
+807. Bawal, Haryana
+808. Narnaul, Haryana
+809. Mahendragarh, Haryana
+810. Hisar, Haryana
+811. Hansi, Haryana
+812. Fatehabad, Haryana
+813. Sirsa, Haryana
+
+-- Rajasthan --
+814. Jaipur, Rajasthan
+815. Alwar, Rajasthan
+816. Bhiwadi, Rajasthan
+817. Neemrana, Rajasthan
+818. Behror, Rajasthan
+819. Kotputli, Rajasthan
+820. Shahpura, Rajasthan
+821. Bharatpur, Rajasthan
+822. Deeg, Rajasthan
+823. Dholpur, Rajasthan
+824. Dausa, Rajasthan
+825. Karauli, Rajasthan
+826. Sawai Madhopur, Rajasthan
+827. Tonk, Rajasthan
+828. Sikar, Rajasthan
+829. Jhunjhunu, Rajasthan
+830. Mandawa, Rajasthan
+831. Pilani, Rajasthan
+832. Kishangarh, Rajasthan
+833. Ajmer, Rajasthan
+834. Pushkar, Rajasthan
+
+-- Uttarakhand --
+835. Roorkee, Uttarakhand
+836. Haridwar, Uttarakhand
+837. Rishikesh, Uttarakhand
+838. Dehradun, Uttarakhand
+839. Mussoorie, Uttarakhand
+840. Kotdwar, Uttarakhand
+841. Kashipur, Uttarakhand
+842. Rudrapur, Uttarakhand
+843. Pantnagar, Uttarakhand
+844. Haldwani, Uttarakhand
+845. Kathgodam, Uttarakhand
+846. Nainital, Uttarakhand
+847. Ramnagar, Uttarakhand
+848. Almora, Uttarakhand
+849. Ranikhet, Uttarakhand
+850. New Tehri, Uttarakhand
+
+-- Chandigarh, Himachal Pradesh, Punjab & Madhya Pradesh --
+851. Chandigarh (Union Territory)
+852. Mohali, Punjab
+853. Zirakpur, Punjab
+854. Patiala, Punjab
+855. Rajpura, Punjab
+856. Shimla, Himachal Pradesh
+857. Solan, Himachal Pradesh
+858. Parwanoo, Himachal Pradesh
+859. Morena, Madhya Pradesh
+860. Gwalior, Madhya Pradesh
+
+--------------------------------------------------------------------------------
+11. STUDENT WEEKEND GETAWAYS, HILL STATIONS, DHABAS & TOURIST SPOTS (861 - 1000)
+--------------------------------------------------------------------------------
+-- Murthal & Highway Food Stops --
+861. Amrik Sukhdev Dhaba, Murthal, Haryana
+862. Garam Dharam Dhaba, Murthal, Haryana
+863. Haveli Murthal, Murthal, Haryana
+864. Mannat Haveli, Murthal, Haryana
+865. Gulshan Dhaba, Murthal, Haryana
+866. Pahalwan Dhaba, Murthal, Haryana
+867. Shiva Tourist Dhaba, Khatauli (Delhi-Dehradun Highway)
+868. Cheetal Grand, Khatauli, Uttar Pradesh
+869. Old Rao Hotel, Dharuhera (Delhi-Jaipur Highway)
+870. Highway King, Behror (Delhi-Jaipur Highway)
+871. Midway Behror, Rajasthan
+872. Jewar Toll Plaza Food Court, Yamuna Expressway
+
+-- Agra, Mathura & Vrindavan --
+873. Taj Mahal, Agra
+874. Agra Fort, Agra
+875. Mehtab Bagh, Agra
+876. Tomb of Itimad-ud-Daulah (Baby Taj), Agra
+877. Akbar's Tomb (Sikandra), Agra
+878. Fatehpur Sikri Fort & Buland Darwaza, Agra
+879. Sadar Bazaar, Agra
+880. Taj Nature Walk, Agra
+881. Prem Mandir, Vrindavan
+882. Banke Bihari Temple, Vrindavan
+883. ISKCON Vrindavan (Krishna Balaram Mandir), Vrindavan
+884. Nidhivan, Vrindavan
+885. Kesi Ghat, Vrindavan
+886. Shri Krishna Janmabhoomi Temple, Mathura
+887. Dwarkadhish Temple, Mathura
+888. Vishram Ghat, Mathura
+889. Kusum Sarovar, Govardhan
+890. Radha Rani Temple, Barsana
+
+-- Jaipur & Rajasthan Weekend Spots --
+891. Amer Fort (Amber Palace), Jaipur
+892. Hawa Mahal, Jaipur
+893. City Palace, Jaipur
+894. Jantar Mantar, Jaipur
+895. Nahargarh Fort, Jaipur
+896. Jaigarh Fort, Jaipur
+897. Jal Mahal, Jaipur
+898. Albert Hall Museum, Jaipur
+899. Patrika Gate, Jaipur
+900. Birla Mandir, Jaipur
+901. Galta Ji (Monkey Temple), Jaipur
+902. Bapu Bazaar, Jaipur
+903. Johari Bazaar, Jaipur
+904. World Trade Park (WTP), Jaipur
+905. Chokhi Dhani Village Resort, Jaipur
+906. Masala Chowk, Jaipur
+907. Neemrana Fort-Palace, Neemrana
+908. Sariska Tiger Reserve, Alwar
+909. Bhangarh Fort, Alwar
+910. Siliserh Lake, Alwar
+911. Bala Quila (Alwar Fort), Alwar
+912. Keoladeo National Park (Bharatpur Bird Sanctuary), Bharatpur
+913. Lohagarh Fort, Bharatpur
+914. Chand Baori Stepwell, Abhaneri, Dausa
+915. Mehandipur Balaji Temple, Dausa
+916. Ranthambore National Park, Sawai Madhopur
+917. Ranthambore Fort, Sawai Madhopur
+918. Khatu Shyam Ji Temple, Sikar
+919. Ajmer Sharif Dargah, Ajmer
+920. Pushkar Lake & Brahma Temple, Pushkar
+
+-- Rishikesh, Haridwar, Dehradun & Mussoorie --
+921. Laxman Jhula, Rishikesh
+922. Ram Jhula, Rishikesh
+923. Janki Setu, Rishikesh
+924. Triveni Ghat, Rishikesh
+925. Parmarth Niketan Ashram, Rishikesh
+926. Beatles Ashram (Chaurasi Kutia), Rishikesh
+927. Tapovan Cafe & Hostel Hub, Rishikesh
+928. Shivpuri River Rafting Point, Rishikesh
+929. Marine Drive Rafting Point, Rishikesh
+930. Neer Garh Waterfall, Rishikesh
+931. Patna Waterfall, Rishikesh
+932. Jumping Heights (Bungee Jumping), Mohan Chatti, Rishikesh
+933. Vashishta Gufa, Rishikesh
+934. Har Ki Pauri, Haridwar
+935. Mansa Devi Temple, Haridwar
+936. Chandi Devi Temple, Haridwar
+937. Rajaji National Park, Haridwar
+938. Robber's Cave (Guchhupani), Dehradun
+939. Sahastradhara, Dehradun
+940. Forest Research Institute (FRI), Dehradun
+941. Mindrolling Monastery, Clement Town, Dehradun
+942. Tapkeshwar Mahadev Temple, Dehradun
+943. Paltan Bazaar, Dehradun
+944. Rajpur Road Cafe Hub, Dehradun
+945. Pacific Mall Dehradun, Dehradun
+946. Maldevta, Dehradun
+947. Mall Road, Mussoorie
+948. Kempty Falls, Mussoorie
+949. Gun Hill Point, Mussoorie
+950. Lal Tibba Scenic Point, Landour, Mussoorie
+951. Landour Bakehouse & Char Dukan, Landour, Mussoorie
+952. Camel's Back Road, Mussoorie
+953. Company Garden, Mussoorie
+954. George Everest's House, Mussoorie
+955. Cloud's End, Mussoorie
+956. Bhatta Falls, Mussoorie
+957. Dhanaulti Eco Park, Dhanaulti
+958. Surkanda Devi Temple, Dhanaulti
+959. Kanatal Hill Station, Uttarakhand
+960. Tehri Lake & Tehri Dam, New Tehri
+961. Chakrata Hill Station & Tiger Falls, Uttarakhand
+962. Lansdowne Hill Station (Bhulla Lake / Tip N Top), Uttarakhand
+963. IIT Roorkee Campus, Roorkee
+
+-- Nainital, Jim Corbett & Kumaon --
+964. Naini Lake, Nainital
+965. Mall Road, Nainital
+966. Naina Devi Temple, Nainital
+967. Snow View Point, Nainital
+968. Tiffin Top (Dorothy's Seat), Nainital
+969. Nainital Zoo (Pt. G.B. Pant High Altitude Zoo), Nainital
+970. Eco Cave Gardens, Nainital
+971. Kainchi Dham (Neem Karoli Baba Ashram), Nainital
+972. Bhimtal Lake, Bhimtal
+973. Sattal Lakes, Uttarakhand
+974. Naukuchiatal Lake, Uttarakhand
+975. Pangot Birding Village, Nainital
+976. Mukteshwar (Chauli Ki Jali), Uttarakhand
+977. Jim Corbett National Park (Dhikala / Bijrani / Jhirna Zones), Ramnagar
+978. Garjiya Devi Temple, Ramnagar
+979. Corbett Falls, Kaladhungi
+980. Kasar Devi Temple, Almora
+981. Ranikhet Golf Course & Jhula Devi Temple, Ranikhet
+
+-- Chandigarh, Shimla, Kasauli & Gwalior --
+982. Rock Garden, Chandigarh
+983. Sukhna Lake, Chandigarh
+984. Sector 17 Plaza, Chandigarh
+985. Elante Mall, Chandigarh
+986. Zakir Hussain Rose Garden, Chandigarh
+987. Pinjore Gardens (Yadavindra Gardens), Pinjore
+988. Timber Trail Resort & Cable Car, Parwanoo
+989. Kasauli Mall Road & Sunset Point, Kasauli
+990. Gilbert Trail & Monkey Point (Manki Point), Kasauli
+991. Mall Road & The Ridge, Shimla
+992. Jakhoo Temple, Shimla
+993. Christ Church, Shimla
+994. Kufri Hill Station, Shimla
+995. Mashobra, Shimla
+996. Chail Hill Station, Himachal Pradesh
+997. Brahma Sarovar, Kurukshetra
+998. Gwalior Fort, Gwalior
+999. Jai Vilas Palace, Gwalior
+1000. Tansen Tomb & Sas Bahu Temple, Gwalior
+================================================================================
+END OF LIST (1,000 PLACES)
+================================================================================

@@ -61,12 +61,12 @@
       <h2>How the project works</h2>
       <p class="detail">CabPool is a local, menu-driven Python prototype. It takes ride requests, looks for groups that can share a vehicle, calculates an even fare split, and saves the information between runs.</p>
       <div class="steps" style="margin-top: 26px">
-        <article class="step"><div class="number">01</div><div><h3>Enter ride requests</h3><p>For each traveler, enter a name, destination, preferred departure time, and flexibility from 0 to 360 minutes. The program validates these values before adding the request. Times can use 24-hour format or AM/PM.</p></div></article>
+        <article class="step"><div class="number">01</div><div><h3>Enter ride requests</h3><p>For each traveler, enter a name, destination, preferred departure time, and flexibility from 0 to 360 minutes. CabPool includes 1,000 nearby destinations. Choose a listed place by name or number; for a place outside the list, enter its road distance manually.</p></div></article>
         <article class="step"><div class="number">02</div><div><h3>Build a group</h3><p>When you choose “Match and show results,” CabPool separates requests by destination and sorts each destination by preferred time. It starts with the earliest unassigned request, then adds people whose available time windows overlap. The group's shared window narrows with each person added, and no cab exceeds four passengers.</p></div></article>
         <article class="step"><div class="number">03</div><div><h3>Choose a departure time</h3><p>The suggested departure is the midpoint of the time window shared by everyone in that cab. The matcher accounts for windows that cross midnight, so a late-night request can match an early-morning request when their flexibility allows it.</p></div></article>
-        <article class="step"><div class="number">04</div><div><h3>Split the fare</h3><p>The prototype uses a fixed fare of Rs. 600 per cab and divides it equally among the passengers. Savings are estimated against each passenger booking a separate Rs. 600 cab.</p><div class="formula">fare per person = Rs. 600 ÷ passengers<br>savings for the group = (passengers − 1) × Rs. 600</div><p>For example, four passengers pay Rs. 150 each, saving Rs. 450 each compared with travelling alone.</p></div></article>
+        <article class="step"><div class="number">04</div><div><h3>Split the fare</h3><p>For catalog locations, CabPool gets the driving distance from Bennett University using OpenStreetMap routing. The fare is Rs. 10 per kilometre, divided equally among passengers. Manually entered distances use the same rate.</p><div class="formula">cab fare = distance in km × Rs. 10<br>fare per person = cab fare ÷ passengers</div><p>For example, a 20 km trip costs Rs. 200 total; four passengers pay Rs. 50 each.</p></div></article>
         <article class="step"><div class="number">05</div><div><h3>Review matches and unmatched requests</h3><p>Results list each cab's destination, departure and shared window, passengers, per-person fare, and savings. Requests that cannot join a group of at least two are listed as unmatched.</p></div></article>
-        <article class="step"><div class="number">06</div><div><h3>Keep data between runs</h3><p>Ride requests are saved in <code>requests.csv</code> and loaded when the program starts. After matching, the cab groups and summary are saved in <code>results.json</code>. Both files are created in the directory where the program runs.</p></div></article>
+        <article class="step"><div class="number">06</div><div><h3>Keep data between runs</h3><p>Ride requests are saved in <code>requests.csv</code> and loaded when the program starts. After matching, the cab groups and summary are saved in <code>results.json</code>. Road distances are cached in <code>distance_cache.json</code> to avoid repeating map lookups.</p></div></article>
       </div>
     </section>
     <section>
@@ -87,7 +87,7 @@
     </section>
     <section>
       <h2>Prototype assumptions</h2>
-      <p class="about">CabPool is a command-line demonstration of ride matching. It assumes a fixed Rs. 600 fare per cab, capacity of four, exact destination names after capitalization, and local CSV/JSON storage. Its greedy matching is intended for small groups of student requests; it does not book vehicles or contact passengers.</p>
+      <p class="about">CabPool starts trips at Bennett University in Greater Noida and charges Rs. 10 per road kilometre. Its bundled list contains 1,000 nearby places; locations outside the list use a manually entered distance. Map results use OpenStreetMap geocoding and OSRM routing, and are estimates to a mapped point rather than a live taxi quote. Cab capacity is four. This prototype does not book vehicles or contact passengers.</p>
     </section>
     <footer><span>CabPool · Station and airport ride matching</span><a href="https://github.com/BoomDino/carpool">Source on GitHub</a></footer>
   </main>

@@ -1,0 +1,5 @@
+__pycache__/
+requests.csv
+results.json
+distance_cache.json
+.env
