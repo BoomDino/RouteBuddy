@@ -3,93 +3,173 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="CabPool groups students travelling to the same destination so they can share a cab and split the fare.">
-  <title>CabPool — Share the ride</title>
+  <meta name="description" content="Learn how CabPool matches student ride requests, calculates road distance from Bennett University, and splits cab fares at Rs. 10 per kilometre.">
+  <title>CabPool — Shared rides, clearly planned</title>
   <style>
-    :root { color-scheme: light; --ink: #18211f; --muted: #64716d; --line: #dfe5e2; --accent: #176b54; --paper: #fbfcfb; }
+    :root {
+      color-scheme: light;
+      --ink: #18211f;
+      --muted: #64716d;
+      --line: #dfe5e2;
+      --accent: #176b54;
+      --paper: #fbfcfb;
+      --soft: #f0f5f2;
+    }
     * { box-sizing: border-box; }
-    body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-    main { width: min(100% - 40px, 900px); margin: 0 auto; }
-    header { display: flex; align-items: center; justify-content: space-between; padding: 26px 0; border-bottom: 1px solid var(--line); }
-    .wordmark { font-size: 18px; font-weight: 700; letter-spacing: -.04em; }
-    nav { display: flex; gap: 22px; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: min(100% - 40px, 940px); margin: 0 auto; }
+    header { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 24px 0; border-bottom: 1px solid var(--line); }
+    .wordmark { color: var(--ink); font-size: 18px; font-weight: 750; letter-spacing: -.04em; text-decoration: none; }
+    nav { display: flex; flex-wrap: wrap; gap: 20px; }
     nav a, a { color: var(--accent); text-decoration: none; }
     nav a { font-size: 14px; }
     nav a:hover, a:hover { text-decoration: underline; }
-    .hero { padding: 100px 0 92px; max-width: 720px; }
-    .eyebrow { color: var(--accent); font-size: 13px; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
-    h1 { max-width: 650px; margin: 16px 0 20px; font-size: clamp(42px, 8vw, 72px); line-height: 1.04; letter-spacing: -.065em; }
-    .intro { max-width: 570px; color: var(--muted); font-size: 19px; }
-    .actions { display: flex; flex-wrap: wrap; gap: 20px; align-items: center; margin-top: 30px; }
-    .button { display: inline-block; padding: 11px 17px; border-radius: 5px; background: var(--accent); color: white; font-size: 14px; font-weight: 600; }
+    .hero { max-width: 760px; padding: 94px 0 70px; }
+    .eyebrow { color: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+    h1 { max-width: 700px; margin: 14px 0 20px; font-size: clamp(42px, 8vw, 72px); line-height: 1.04; letter-spacing: -.065em; }
+    .intro { max-width: 660px; margin: 0; color: var(--muted); font-size: 19px; }
+    .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 20px; margin-top: 28px; }
+    .button { display: inline-block; padding: 11px 17px; border-radius: 5px; background: var(--accent); color: white; font-size: 14px; font-weight: 650; }
     .button:hover { background: #105440; text-decoration: none; }
-    section { border-top: 1px solid var(--line); padding: 34px 0 48px; }
-    h2 { margin: 0 0 20px; font-size: 22px; letter-spacing: -.03em; }
-    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
-    h3 { margin: 0 0 7px; font-size: 15px; }
-    .grid p, .about { margin: 0; color: var(--muted); font-size: 14px; }
-    .steps { display: grid; gap: 0; border-top: 1px solid var(--line); }
-    .step { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 18px; padding: 22px 0; border-bottom: 1px solid var(--line); }
-    .number { color: var(--accent); font-size: 13px; font-weight: 650; }
-    .step h3 { font-size: 16px; }
-    .step p, .detail { max-width: 690px; margin: 0; color: var(--muted); font-size: 14px; }
-    .formula { display: inline-block; margin: 12px 0; padding: 10px 13px; background: #f0f5f2; border-radius: 4px; color: var(--ink); font: 14px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; }
-    .code { padding: 16px 18px; overflow-x: auto; background: #f0f5f2; border-radius: 5px; color: var(--ink); font: 14px/1.7 ui-monospace, SFMono-Regular, Menlo, monospace; }
-    .methods { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px 28px; }
-    .methods p { margin: 0; color: var(--muted); font-size: 14px; }
-    .methods strong { color: var(--ink); }
+    .facts { display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 58px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+    .fact { padding: 18px 16px 18px 0; }
+    .fact + .fact { padding-left: 22px; border-left: 1px solid var(--line); }
+    .fact strong { display: block; font-size: 20px; letter-spacing: -.03em; }
+    .fact span { color: var(--muted); font-size: 13px; }
+    section { padding: 42px 0 52px; border-top: 1px solid var(--line); scroll-margin-top: 18px; }
+    h2 { margin: 0 0 12px; font-size: 26px; line-height: 1.2; letter-spacing: -.04em; }
+    h3 { margin: 0 0 6px; font-size: 16px; line-height: 1.4; }
+    .section-intro { max-width: 710px; margin: 0 0 25px; color: var(--muted); font-size: 15px; }
+    .steps { display: grid; border-top: 1px solid var(--line); }
+    .step { display: grid; grid-template-columns: 54px minmax(0, 1fr); gap: 18px; padding: 22px 0; border-bottom: 1px solid var(--line); }
+    .number { color: var(--accent); font-size: 13px; font-weight: 700; }
+    .step p, .copy { max-width: 730px; margin: 0; color: var(--muted); font-size: 14px; }
+    .columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 30px; }
+    .card { padding: 18px; border: 1px solid var(--line); border-radius: 5px; }
+    .card p { margin: 0; color: var(--muted); font-size: 14px; }
+    .formula { display: block; margin: 16px 0; padding: 15px 17px; overflow-x: auto; border-radius: 5px; background: var(--soft); color: var(--ink); font: 14px/1.8 ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .example { margin-top: 18px; padding: 17px 19px; border-left: 3px solid var(--accent); background: var(--soft); }
+    .example p { margin: 0; color: var(--muted); font-size: 14px; }
+    .example p + p { margin-top: 7px; }
+    .modules { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 28px; }
+    .module { padding-top: 14px; border-top: 1px solid var(--line); }
+    .module p { margin: 0; color: var(--muted); font-size: 14px; }
+    .code { padding: 15px 18px; overflow-x: auto; border-radius: 5px; background: var(--soft); color: var(--ink); font: 14px/1.7 ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .fine-print { color: var(--muted); font-size: 13px; }
     footer { display: flex; justify-content: space-between; gap: 16px; padding: 24px 0 34px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
-    @media (max-width: 620px) { .hero { padding: 70px 0; } .grid { grid-template-columns: 1fr; gap: 22px; } footer { flex-direction: column; } }
+    @media (max-width: 620px) {
+      main { width: min(100% - 32px, 940px); }
+      header { align-items: flex-start; flex-direction: column; gap: 12px; }
+      nav { gap: 15px; }
+      .hero { padding: 66px 0 52px; }
+      .facts { grid-template-columns: 1fr; margin-top: 38px; }
+      .fact, .fact + .fact { padding: 13px 0; border-left: 0; }
+      .fact + .fact { border-top: 1px solid var(--line); }
+      .columns, .modules { grid-template-columns: 1fr; }
+      .step { grid-template-columns: 34px minmax(0, 1fr); gap: 10px; }
+      footer { flex-direction: column; }
+    }
   </style>
 </head>
 <body>
   <main>
     <header>
       <a class="wordmark" href="./" aria-label="CabPool home">CabPool</a>
-      <nav><a href="#how-it-works">How it works</a><a href="#run">Run</a><a href="https://github.com/BoomDino/carpool">Source</a></nav>
+      <nav aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#distance-and-fare">Distance and fare</a>
+        <a href="#run">Run CabPool</a>
+        <a href="https://github.com/BoomDino/carpool">Source</a>
+      </nav>
     </header>
+
     <section class="hero" style="border: 0">
-      <div class="eyebrow">A simple ride matching prototype</div>
-      <h1>Make the trip together.</h1>
-      <p class="intro">CabPool helps hostel students heading to the same station or airport find a shared cab, coordinate departure times, and split the fare.</p>
+      <div class="eyebrow">A student ride-matching prototype</div>
+      <h1>Plan the ride together, before everyone books alone.</h1>
+      <p class="intro">CabPool helps students leaving from Bennett University find other people going to the same destination at a compatible time. It estimates the road distance, forms groups of up to four, and shows how a Rs. 10-per-kilometre fare is shared.</p>
       <div class="actions">
         <a class="button" href="https://github.com/BoomDino/carpool/blob/main/cabpool_5_methods.py">Explore the code</a>
-        <a href="#how-it-works">How the project works</a>
+        <a href="#how-it-works">See the complete workflow</a>
+      </div>
+      <div class="facts" aria-label="CabPool defaults">
+        <div class="fact"><strong>1,000 places</strong><span>From the supplied nearby-destination list</span></div>
+        <div class="fact"><strong>Rs. 10/km</strong><span>Distance-based fare, split evenly</span></div>
+        <div class="fact"><strong>4 passengers</strong><span>Maximum group size per cab</span></div>
       </div>
     </section>
+
     <section id="how-it-works">
-      <h2>How the project works</h2>
-      <p class="detail">CabPool is a local, menu-driven Python prototype. It takes ride requests, looks for groups that can share a vehicle, calculates an even fare split, and saves the information between runs.</p>
-      <div class="steps" style="margin-top: 26px">
-        <article class="step"><div class="number">01</div><div><h3>Enter ride requests</h3><p>For each traveler, enter a name, destination, preferred departure time, and flexibility from 0 to 360 minutes. CabPool includes 1,000 nearby destinations. Choose a listed place by name or number; for a place outside the list, enter its road distance manually.</p></div></article>
-        <article class="step"><div class="number">02</div><div><h3>Build a group</h3><p>When you choose “Match and show results,” CabPool separates requests by destination and sorts each destination by preferred time. It starts with the earliest unassigned request, then adds people whose available time windows overlap. The group's shared window narrows with each person added, and no cab exceeds four passengers.</p></div></article>
-        <article class="step"><div class="number">03</div><div><h3>Choose a departure time</h3><p>The suggested departure is the midpoint of the time window shared by everyone in that cab. The matcher accounts for windows that cross midnight, so a late-night request can match an early-morning request when their flexibility allows it.</p></div></article>
-        <article class="step"><div class="number">04</div><div><h3>Split the fare</h3><p>For catalog locations, CabPool gets the driving distance from Bennett University using OpenStreetMap routing. The fare is Rs. 10 per kilometre, divided equally among passengers. Manually entered distances use the same rate.</p><div class="formula">cab fare = distance in km × Rs. 10<br>fare per person = cab fare ÷ passengers</div><p>For example, a 20 km trip costs Rs. 200 total; four passengers pay Rs. 50 each.</p></div></article>
-        <article class="step"><div class="number">05</div><div><h3>Review matches and unmatched requests</h3><p>Results list each cab's destination, departure and shared window, passengers, per-person fare, and savings. Requests that cannot join a group of at least two are listed as unmatched.</p></div></article>
-        <article class="step"><div class="number">06</div><div><h3>Keep data between runs</h3><p>Ride requests are saved in <code>requests.csv</code> and loaded when the program starts. After matching, the cab groups and summary are saved in <code>results.json</code>. Road distances are cached in <code>distance_cache.json</code> to avoid repeating map lookups.</p></div></article>
+      <h2>How CabPool works</h2>
+      <p class="section-intro">The program is a local Python command-line app. Each ride request moves through destination lookup, time matching, fare calculation, and file storage. Here is what happens from the moment someone opens it.</p>
+      <div class="steps">
+        <article class="step">
+          <div class="number">01</div>
+          <div><h3>Add a ride request</h3><p>Enter the passenger's name, destination, preferred departure time, and time flexibility. Flexibility can be from 0 to 360 minutes. The program checks each field before saving the request. Time can be entered as 24-hour time or with AM/PM.</p></div>
+        </article>
+        <article class="step">
+          <div class="number">02</div>
+          <div><h3>Find the destination</h3><p>CabPool checks the supplied list of 1,000 places, which includes cities and towns, airports, rail and metro stations, and other destinations. Enter a list number or place name. When a place is listed, CabPool looks it up on the map and calculates a driving route from Bennett University. If it is not listed, the program asks for the road distance in kilometres.</p></div>
+        </article>
+        <article class="step">
+          <div class="number">03</div>
+          <div><h3>Match by destination and time</h3><p>When you choose “Match and show results,” requests are grouped by destination and ordered by preferred departure time. CabPool takes the earliest unassigned request as the start of a group. It adds another passenger only when that person's available time overlaps the group's current shared window. The shared window narrows each time someone joins, and the group stops growing at four passengers.</p></div>
+        </article>
+        <article class="step">
+          <div class="number">04</div>
+          <div><h3>Suggest a departure time</h3><p>Once a group is formed, CabPool suggests the midpoint of the time window that works for every passenger. Time windows can cross midnight. A request that cannot join a group of at least two is shown as unmatched.</p></div>
+        </article>
+        <article class="step">
+          <div class="number">05</div>
+          <div><h3>Calculate and display the fare</h3><p>The trip fare is based on its road distance, then divided equally among the passengers in that cab. The results show the destination, distance, suggested departure and shared time window, passenger names, full cab fare, each passenger's share, and estimated savings compared with travelling alone.</p></div>
+        </article>
+        <article class="step">
+          <div class="number">06</div>
+          <div><h3>Save the information</h3><p>Requests, including their distance and flexibility, are stored in <code>requests.csv</code> and loaded the next time the app starts. After matching, the cab groups and fare summary are stored in <code>results.json</code>. Geocoded locations and routed distances are cached in <code>distance_cache.json</code>, so a place does not need to be looked up again.</p></div>
+        </article>
       </div>
     </section>
+
+    <section id="distance-and-fare">
+      <h2>Where the distance and fare come from</h2>
+      <p class="section-intro">Every catalog trip starts at Bennett University in Greater Noida. For a listed place, CabPool uses OpenStreetMap's Nominatim service to find its map coordinates, then asks OSRM for the driving-route distance. The list supplies destination names; the road distance is looked up when a request is entered and cached locally.</p>
+      <div class="columns">
+        <article class="card"><h3>Listed destination</h3><p>Choose its list number or name. CabPool geocodes the place, routes from Bennett University, and displays the map match and calculated distance.</p></article>
+        <article class="card"><h3>Unlisted destination</h3><p>Enter the road distance from Bennett University manually. The same fare rate is used for manual and map-calculated distances.</p></article>
+      </div>
+      <div class="formula">cab fare = road distance in km × Rs. 10<br>fare per passenger = cab fare ÷ passenger count<br>group savings = (passenger count − 1) × cab fare</div>
+      <div class="example">
+        <p><strong>Example: a 20 km trip with four passengers</strong></p>
+        <p>The cab fare is 20 × Rs. 10 = Rs. 200. Each passenger pays Rs. 200 ÷ 4 = Rs. 50. If each passenger travelled alone at the same rate, the group would spend Rs. 800; sharing the cab saves Rs. 600 in total.</p>
+      </div>
+      <p class="fine-print">Distances are routes to a mapped point, which may not be the exact entrance. They are estimates based on mapped roads, not live traffic or a taxi-company quote. Map lookup requires an internet connection. If the map service cannot find a route, CabPool asks for the distance manually.</p>
+    </section>
+
     <section>
-      <h2>Five parts of the program</h2>
-      <div class="methods">
-        <p><strong>Input and validation</strong><br>Collects and checks each ride request.</p>
-        <p><strong>Matching engine</strong><br>Greedily groups requests by destination and overlapping time windows.</p>
-        <p><strong>Fare calculator</strong><br>Calculates each passenger's share and estimated savings.</p>
-        <p><strong>File storage</strong><br>Loads requests from CSV and saves requests and results.</p>
-        <p><strong>Output display</strong><br>Prints cab details, unmatched requests, and total savings.</p>
+      <h2>The five parts of the program</h2>
+      <div class="modules">
+        <article class="module"><h3>Input and validation</h3><p>Collects a request and checks the name, destination, time, flexibility, and distance.</p></article>
+        <article class="module"><h3>Matching engine</h3><p>Uses a greedy grouping method to find requests with the same destination and a common time window.</p></article>
+        <article class="module"><h3>Fare calculator</h3><p>Applies Rs. 10 per kilometre, divides the cab fare evenly, and estimates pooled savings.</p></article>
+        <article class="module"><h3>File storage</h3><p>Loads and saves requests in CSV, results in JSON, and map distances in a local cache.</p></article>
+        <article class="module"><h3>Output display</h3><p>Prints each matched cab, its departure window and fare, plus any unmatched requests.</p></article>
       </div>
     </section>
+
     <section id="run">
       <h2>Run CabPool</h2>
-      <p class="detail">Install Python 3, download or clone the repository, then start the program from its folder. No third-party packages are needed.</p>
+      <p class="section-intro">Install Python 3, clone or download the repository, and open a terminal in the project folder. The app uses Python's standard library; map lookup needs an internet connection.</p>
       <pre class="code"><code>python3 cabpool_5_methods.py</code></pre>
-      <p class="detail">Choose <strong>1</strong> to add requests, <strong>2</strong> to review them, <strong>3</strong> to match and display results, or <strong>0</strong> to exit.</p>
+      <p class="copy">Use <strong>1</strong> to add a request, <strong>2</strong> to review saved requests, <strong>3</strong> to match passengers and show fares, or <strong>0</strong> to exit. For catalog destinations, you can enter either the place name or its number in the supplied list.</p>
     </section>
+
     <section>
-      <h2>Prototype assumptions</h2>
-      <p class="about">CabPool starts trips at Bennett University in Greater Noida and charges Rs. 10 per road kilometre. Its bundled list contains 1,000 nearby places; locations outside the list use a manually entered distance. Map results use OpenStreetMap geocoding and OSRM routing, and are estimates to a mapped point rather than a live taxi quote. Cab capacity is four. This prototype does not book vehicles or contact passengers.</p>
+      <h2>What this prototype does and does not do</h2>
+      <p class="copy">CabPool demonstrates request validation, destination lookup, time-window matching, distance-based fare splitting, and local persistence. The current fare model is a simple Rs. 10 per kilometre with no base charge, tolls, or waiting fees. The public map services are best-effort and rate-limited. CabPool does not book a vehicle, contact passengers, collect payment, or provide turn-by-turn navigation.</p>
+      <p class="fine-print">Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. Geocoding by <a href="https://nominatim.org/">Nominatim</a>; routing by <a href="https://project-osrm.org/">OSRM</a>.</p>
     </section>
-    <footer><span>CabPool · Station and airport ride matching</span><a href="https://github.com/BoomDino/carpool">Source on GitHub</a></footer>
+
+    <footer><span>CabPool · Student ride matching from Bennett University</span><a href="https://github.com/BoomDino/carpool">View source on GitHub</a></footer>
   </main>
 </body>
 </html>
