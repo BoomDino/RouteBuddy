@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CabPool groups students travelling to the same destination so they can share a cab and split the fare.">
+  <title>CabPool — Share the ride</title>
+  <style>
+    :root { color-scheme: light; --ink: #18211f; --muted: #64716d; --line: #dfe5e2; --accent: #176b54; --paper: #fbfcfb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: min(100% - 40px, 900px); margin: 0 auto; }
+    header { display: flex; align-items: center; justify-content: space-between; padding: 26px 0; border-bottom: 1px solid var(--line); }
+    .wordmark { font-size: 18px; font-weight: 700; letter-spacing: -.04em; }
+    nav a, a { color: var(--accent); text-decoration: none; }
+    nav a { font-size: 14px; }
+    nav a:hover, a:hover { text-decoration: underline; }
+    .hero { padding: 100px 0 92px; max-width: 720px; }
+    .eyebrow { color: var(--accent); font-size: 13px; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
+    h1 { max-width: 650px; margin: 16px 0 20px; font-size: clamp(42px, 8vw, 72px); line-height: 1.04; letter-spacing: -.065em; }
+    .intro { max-width: 570px; color: var(--muted); font-size: 19px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 20px; align-items: center; margin-top: 30px; }
+    .button { display: inline-block; padding: 11px 17px; border-radius: 5px; background: var(--accent); color: white; font-size: 14px; font-weight: 600; }
+    .button:hover { background: #105440; text-decoration: none; }
+    section { border-top: 1px solid var(--line); padding: 34px 0 48px; }
+    h2 { margin: 0 0 20px; font-size: 22px; letter-spacing: -.03em; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+    h3 { margin: 0 0 7px; font-size: 15px; }
+    .grid p, .about { margin: 0; color: var(--muted); font-size: 14px; }
+    footer { display: flex; justify-content: space-between; gap: 16px; padding: 24px 0 34px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
+    @media (max-width: 620px) { .hero { padding: 70px 0; } .grid { grid-template-columns: 1fr; gap: 22px; } footer { flex-direction: column; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <a class="wordmark" href="./" aria-label="CabPool home">CabPool</a>
+      <nav><a href="https://github.com/BoomDino/carpool">View source</a></nav>
+    </header>
+    <section class="hero" style="border: 0">
+      <div class="eyebrow">A simple ride matching prototype</div>
+      <h1>Make the trip together.</h1>
+      <p class="intro">CabPool helps hostel students heading to the same station or airport find a shared cab, coordinate departure times, and split the fare.</p>
+      <div class="actions">
+        <a class="button" href="https://github.com/BoomDino/carpool/blob/main/cabpool_5_methods.py">Explore the code</a>
+        <a href="https://github.com/BoomDino/carpool#run">How to run it</a>
+      </div>
+    </section>
+    <section>
+      <h2>How it works</h2>
+      <div class="grid">
+        <div><h3>Share a request</h3><p>Enter a destination, preferred departure time, and how flexible you can be.</p></div>
+        <div><h3>Find a common window</h3><p>CabPool groups requests with the same destination and overlapping time windows.</p></div>
+        <div><h3>Split the fare</h3><p>See the suggested departure, passenger list, per-person share, and estimated savings.</p></div>
+      </div>
+    </section>
+    <section>
+      <h2>Built for a clear first step</h2>
+      <p class="about">This Python command-line prototype uses a greedy matching algorithm and stores requests and results locally in CSV and JSON files. Its default model assumes four seats and a sample fare of Rs. 600 per cab.</p>
+    </section>
+    <footer><span>CabPool · Station and airport ride matching</span><a href="https://github.com/BoomDino/carpool">Source on GitHub</a></footer>
+  </main>
+</body>
+</html>
