@@ -8,7 +8,6 @@ CabPool is a command-line prototype that groups hostel students travelling to th
 - Groups compatible requests by destination, with a default capacity of four passengers.
 - Calculates each passenger's share and estimated savings against solo rides.
 - Saves ride requests to `requests.csv` and matching results to `results.json`.
-- Includes sample requests for trying the matching flow.
 
 ## Requirements
 
@@ -20,7 +19,7 @@ Python 3.8 or newer. The project uses only the Python standard library.
 python cabpool_5_methods.py
 ```
 
-Choose **4. Load sample data**, then **3. Match and show results** to see a sample run. Choose **1. Add ride request** to enter a request manually.
+Choose **1. Add ride request** to enter requests, then **3. Match and show results** to form cab groups. Existing requests are loaded from `requests.csv` when the program starts.
 
 The default fare is Rs. 600 per cab and the default capacity is four passengers. Both are set in `main()`.
 

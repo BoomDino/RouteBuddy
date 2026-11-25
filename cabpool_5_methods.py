@@ -231,7 +231,7 @@ def main():
 
     while True:
         print("\n1. Add ride request\n2. View requests\n"
-              "3. Match and show results\n4. Load sample data\n0. Exit")
+              "3. Match and show results\n0. Exit")
         choice = input("Choose: ").strip()
 
         if choice == "1":
@@ -251,25 +251,6 @@ def main():
             app.calculate_fares()
             app.file_storage("save")
             app.display_results()
-        elif choice == "4":
-            sample = [
-                ("Aman", "New Delhi Station", "18:00", 30),
-                ("Riya", "New Delhi Station", "18:15", 20),
-                ("Karan", "New Delhi Station", "17:50", 30),
-                ("Sneha", "New Delhi Station", "18:30", 15),
-                ("Neha", "IGI Airport", "05:00", 30),
-                ("Arjun", "IGI Airport", "05:20", 30),
-                ("Pooja", "IGI Airport", "09:00", 15),
-            ]
-            for name, destination, time, flexibility in sample:
-                app.requests.append({
-                    "name": name,
-                    "destination": destination,
-                    "time": to_minutes(time),
-                    "flex": flexibility,
-                })
-            app.file_storage("save")
-            print("Sample data loaded.")
         elif choice == "0":
             print("Goodbye!")
             break
