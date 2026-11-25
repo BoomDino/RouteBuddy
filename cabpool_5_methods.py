@@ -41,7 +41,7 @@ def to_minutes(text):
 
 def to_str(minutes):
     """Minutes after midnight -> 'HH:MM'."""
-    minutes = max(0, min(int(round(minutes)), 24 * 60 - 1))
+    minutes = int(round(minutes)) % (24 * 60)
     return f"{minutes // 60:02d}:{minutes % 60:02d}"
 
 
@@ -78,11 +78,11 @@ class CabPool:
             print("  ! Invalid time format.")
 
         while True:
-            flex = input("Time flexibility in minutes (0-180): ").strip()
-            if flex.isdigit() and 0 <= int(flex) <= 180:
+            flex = input("Time flexibility in minutes (0-360): ").strip()
+            if flex.isdigit() and 0 <= int(flex) <= 360:
                 flex = int(flex)
                 break
-            print("  ! Enter a whole number between 0 and 180.")
+            print("  ! Enter a whole number between 0 and 360.")
 
         self.requests.append({
             "name": name.title(),
@@ -112,9 +112,19 @@ class CabPool:
                 leftover = []
 
                 for request in pending:
-                    new_low = max(low, request["time"] - request["flex"])
-                    new_high = min(high, request["time"] + request["flex"])
-                    if len(members) < self.capacity and new_low <= new_high:
+                    overlaps = []
+                    for day_shift in (-24 * 60, 0, 24 * 60):
+                        request_low = request["time"] - request["flex"] + day_shift
+                        request_high = request["time"] + request["flex"] + day_shift
+                        overlap_low = max(low, request_low)
+                        overlap_high = min(high, request_high)
+                        if overlap_low <= overlap_high:
+                            overlaps.append((overlap_low, overlap_high))
+
+                    if len(members) < self.capacity and overlaps:
+                        new_low, new_high = max(
+                            overlaps, key=lambda window: window[1] - window[0]
+                        )
                         members.append(request)
                         low, high = new_low, new_high
                     else:
