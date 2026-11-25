@@ -12,6 +12,7 @@
     main { width: min(100% - 40px, 900px); margin: 0 auto; }
     header { display: flex; align-items: center; justify-content: space-between; padding: 26px 0; border-bottom: 1px solid var(--line); }
     .wordmark { font-size: 18px; font-weight: 700; letter-spacing: -.04em; }
+    nav { display: flex; gap: 22px; }
     nav a, a { color: var(--accent); text-decoration: none; }
     nav a { font-size: 14px; }
     nav a:hover, a:hover { text-decoration: underline; }
@@ -27,6 +28,16 @@
     .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
     h3 { margin: 0 0 7px; font-size: 15px; }
     .grid p, .about { margin: 0; color: var(--muted); font-size: 14px; }
+    .steps { display: grid; gap: 0; border-top: 1px solid var(--line); }
+    .step { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 18px; padding: 22px 0; border-bottom: 1px solid var(--line); }
+    .number { color: var(--accent); font-size: 13px; font-weight: 650; }
+    .step h3 { font-size: 16px; }
+    .step p, .detail { max-width: 690px; margin: 0; color: var(--muted); font-size: 14px; }
+    .formula { display: inline-block; margin: 12px 0; padding: 10px 13px; background: #f0f5f2; border-radius: 4px; color: var(--ink); font: 14px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .code { padding: 16px 18px; overflow-x: auto; background: #f0f5f2; border-radius: 5px; color: var(--ink); font: 14px/1.7 ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .methods { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px 28px; }
+    .methods p { margin: 0; color: var(--muted); font-size: 14px; }
+    .methods strong { color: var(--ink); }
     footer { display: flex; justify-content: space-between; gap: 16px; padding: 24px 0 34px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; }
     @media (max-width: 620px) { .hero { padding: 70px 0; } .grid { grid-template-columns: 1fr; gap: 22px; } footer { flex-direction: column; } }
   </style>
@@ -35,7 +46,7 @@
   <main>
     <header>
       <a class="wordmark" href="./" aria-label="CabPool home">CabPool</a>
-      <nav><a href="https://github.com/BoomDino/carpool">View source</a></nav>
+      <nav><a href="#how-it-works">How it works</a><a href="#run">Run</a><a href="https://github.com/BoomDino/carpool">Source</a></nav>
     </header>
     <section class="hero" style="border: 0">
       <div class="eyebrow">A simple ride matching prototype</div>
@@ -43,20 +54,40 @@
       <p class="intro">CabPool helps hostel students heading to the same station or airport find a shared cab, coordinate departure times, and split the fare.</p>
       <div class="actions">
         <a class="button" href="https://github.com/BoomDino/carpool/blob/main/cabpool_5_methods.py">Explore the code</a>
-        <a href="https://github.com/BoomDino/carpool#run">How to run it</a>
+        <a href="#how-it-works">How the project works</a>
+      </div>
+    </section>
+    <section id="how-it-works">
+      <h2>How the project works</h2>
+      <p class="detail">CabPool is a local, menu-driven Python prototype. It takes ride requests, looks for groups that can share a vehicle, calculates an even fare split, and saves the information between runs.</p>
+      <div class="steps" style="margin-top: 26px">
+        <article class="step"><div class="number">01</div><div><h3>Enter ride requests</h3><p>For each traveler, enter a name, destination, preferred departure time, and flexibility from 0 to 360 minutes. The program validates these values before adding the request. Times can use 24-hour format or AM/PM.</p></div></article>
+        <article class="step"><div class="number">02</div><div><h3>Build a group</h3><p>When you choose “Match and show results,” CabPool separates requests by destination and sorts each destination by preferred time. It starts with the earliest unassigned request, then adds people whose available time windows overlap. The group's shared window narrows with each person added, and no cab exceeds four passengers.</p></div></article>
+        <article class="step"><div class="number">03</div><div><h3>Choose a departure time</h3><p>The suggested departure is the midpoint of the time window shared by everyone in that cab. The matcher accounts for windows that cross midnight, so a late-night request can match an early-morning request when their flexibility allows it.</p></div></article>
+        <article class="step"><div class="number">04</div><div><h3>Split the fare</h3><p>The prototype uses a fixed fare of Rs. 600 per cab and divides it equally among the passengers. Savings are estimated against each passenger booking a separate Rs. 600 cab.</p><div class="formula">fare per person = Rs. 600 ÷ passengers<br>savings for the group = (passengers − 1) × Rs. 600</div><p>For example, four passengers pay Rs. 150 each, saving Rs. 450 each compared with travelling alone.</p></div></article>
+        <article class="step"><div class="number">05</div><div><h3>Review matches and unmatched requests</h3><p>Results list each cab's destination, departure and shared window, passengers, per-person fare, and savings. Requests that cannot join a group of at least two are listed as unmatched.</p></div></article>
+        <article class="step"><div class="number">06</div><div><h3>Keep data between runs</h3><p>Ride requests are saved in <code>requests.csv</code> and loaded when the program starts. After matching, the cab groups and summary are saved in <code>results.json</code>. Both files are created in the directory where the program runs.</p></div></article>
       </div>
     </section>
     <section>
-      <h2>How it works</h2>
-      <div class="grid">
-        <div><h3>Share a request</h3><p>Enter a destination, preferred departure time, and how flexible you can be.</p></div>
-        <div><h3>Find a common window</h3><p>CabPool groups requests with the same destination and overlapping time windows.</p></div>
-        <div><h3>Split the fare</h3><p>See the suggested departure, passenger list, per-person share, and estimated savings.</p></div>
+      <h2>Five parts of the program</h2>
+      <div class="methods">
+        <p><strong>Input and validation</strong><br>Collects and checks each ride request.</p>
+        <p><strong>Matching engine</strong><br>Greedily groups requests by destination and overlapping time windows.</p>
+        <p><strong>Fare calculator</strong><br>Calculates each passenger's share and estimated savings.</p>
+        <p><strong>File storage</strong><br>Loads requests from CSV and saves requests and results.</p>
+        <p><strong>Output display</strong><br>Prints cab details, unmatched requests, and total savings.</p>
       </div>
     </section>
+    <section id="run">
+      <h2>Run CabPool</h2>
+      <p class="detail">Install Python 3, download or clone the repository, then start the program from its folder. No third-party packages are needed.</p>
+      <pre class="code"><code>python3 cabpool_5_methods.py</code></pre>
+      <p class="detail">Choose <strong>1</strong> to add requests, <strong>2</strong> to review them, <strong>3</strong> to match and display results, or <strong>0</strong> to exit.</p>
+    </section>
     <section>
-      <h2>Built for a clear first step</h2>
-      <p class="about">This Python command-line prototype uses a greedy matching algorithm and stores requests and results locally in CSV and JSON files. Its default model assumes four seats and a sample fare of Rs. 600 per cab.</p>
+      <h2>Prototype assumptions</h2>
+      <p class="about">CabPool is a command-line demonstration of ride matching. It assumes a fixed Rs. 600 fare per cab, capacity of four, exact destination names after capitalization, and local CSV/JSON storage. Its greedy matching is intended for small groups of student requests; it does not book vehicles or contact passengers.</p>
     </section>
     <footer><span>CabPool · Station and airport ride matching</span><a href="https://github.com/BoomDino/carpool">Source on GitHub</a></footer>
   </main>
